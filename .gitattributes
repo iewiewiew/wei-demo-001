@@ -1,1 +1,1 @@
-lfs文档.md filter=lfs diff=lfs merge=lfs -text
+*.md filter=lfs diff=lfs merge=lfs -text
