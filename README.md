@@ -3,11 +3,7 @@
 
 ### 测试 Revert
 ```
-第一次
-第二次 
-第三次
-第四次
-git add . && git commit -m "dev 第2次"
+git add . && git commit -m "dev 版本1"
 ```
 
 
