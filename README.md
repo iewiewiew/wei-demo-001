@@ -23,7 +23,7 @@ git add ci https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main
 git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
 git pull -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  
 git push -u ci main  
-git add . && git commit -m "test"  
+git add . && git commit -m "test" 
 ```
 
 
@@ -36,4 +36,9 @@ https://premium-k8s.gitee.cn/fenbushianzhuangbaoceshi/wei-demo-001.git
 git push -f https://gitee@oschina.com:oschina123@premium-k8s.gitee.cn/fenbushianzhuangbaoceshi/wei-demo-001.git main
 git push -f https://gitee%40oschina.com:oschina123@premium-k8s.gitee.cn/fenbushianzhuangbaoceshi/wei-demo-001.git main
 git push -f prem main
+
+test_admin@oschina.cn
+test_admin123
+http://backend-18628.premium-ci.cn/WTF/wei-demo-001.git
+git push -f http://test_admin%40oschina.com:test_admin123@backend-18628.premium-ci.cn/WTF/wei-demo-001.git main
 ```
