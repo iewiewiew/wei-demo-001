@@ -12,7 +12,6 @@ git add . && git commit -m "dev 版本6 验证撤销最后一个提交并创建�
 git add . && git commit -m "master 版本7"
 git add . && git commit -m "master 版本8"
 git add . && git commit -m "dev 版本9"
-git add . && git commit -m "main 版本1"
 ```
 
 
@@ -36,7 +35,4 @@ https://premium-k8s.gitee.cn/fenbushianzhuangbaoceshi/wei-demo-001.git
 git push -f https://gitee@oschina.com:oschina123@premium-k8s.gitee.cn/fenbushianzhuangbaoceshi/wei-demo-001.git main
 git push -f https://gitee%40oschina.com:oschina123@premium-k8s.gitee.cn/fenbushianzhuangbaoceshi/wei-demo-001.git main
 git push -f prem main
-
-git push -u -f http://test_admin%40oschina.cn:test_admin123@backend-18628.premium-ci.cn/WTF/wei-demo-001.git main
-
 ```
