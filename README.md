@@ -13,6 +13,7 @@ git add . && git commit -m "master 版本7"
 git add . && git commit -m "master 版本8"
 git add . && git commit -m "dev 版本9"
 git add . && git commit -m "main 先回退还是合并再回退"
+git add . && git commit -m "prem 先回退还是合并再回退"
 ```
 
 
@@ -40,5 +41,5 @@ git push -f prem main
 test_admin@oschina.cn
 test_admin123
 http://backend-18628.premium-ci.cn/WTF/wei-demo-001.git
-git push -f http://test_admin%40oschina.com:test_admin123@backend-18628.premium-ci.cn/WTF/wei-demo-001.git main
+git push -f http://test_admin%40oschina.cn:test_admin123@backend-18628.premium-ci.cn/WTF/wei-demo-001.git main
 ```
