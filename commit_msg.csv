@@ -11,7 +11,12 @@
 三、以 @user 开头和结束（整行前后无空格）
 @gitqa 中文 @gitqa 中文 @gitqa
 四、以 @user 开头和 @user 结束（整行前后空格）
- @gitqa 中文 @gitqa 中文 @gitqa  
+ @gitqa 中文 @gitqa 中文 @gitqa
+五、两个 @user
+@gitqa @git
+六、两个 @user 加@，加中文，加英文
+中文 @gitqa @git @data english
+
 
  
 @git
