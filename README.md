@@ -4,6 +4,7 @@
 # 测试 @ 用户
 ```
 git add . && git commit -m "中文 @gitqa @git @data english" && git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
+git add . && git commit -m "@weimenghua" && git push -f hihgtest main  --no-verify
 ```
 一、commit message 中文情况下无空格、左空格、右空格、左右空格
 1. 中@abc文
@@ -48,6 +49,7 @@ git add ci https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main
 git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main
 git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
 git pull -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  
+git pull -f hightest main  
 git push -u ci main  
 git add . && git commit -m "test" 
 ```
