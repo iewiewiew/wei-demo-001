@@ -1,6 +1,14 @@
 # wei-demo-001
 
 
+# 测试@用户
+```
+git add . && git commit -m "@gitqa"
+
+
+```
+
+
 ### 测试 Revert
 ```
 git add . && git commit -m "dev 版本1"
@@ -21,6 +29,7 @@ git add . && git commit -m "prem 先回退还是合并再回退"
 ### CI 环境
 ```
 git add ci https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  
+git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main
 git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
 git pull -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  
 git push -u ci main  
