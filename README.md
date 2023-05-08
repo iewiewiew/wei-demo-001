@@ -3,10 +3,26 @@
 
 # 测试@用户
 ```
-git add . && git commit -m "@git" && git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
-git add . && git commit -m "@Data"
-git add . && git commit -m "@data"
+git add . && git commit -m "@abc 中文 @abc 中文 @abc" && git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
 ```
+一、commit message 中文情况下无空格、左空格、右空格、左右空格
+1. 中@abc文
+2. 中 @abc文
+3. 中@abc 文
+4. 中 @abc 文
+
+二、commit message 英文情况下无空格、左空格、右空格、左右空格
+1. eng@abclish
+2. eng @abclish
+3. eng@abc lish
+4. eng @abc lish
+
+三、以 @user 开头和结束（整行前后无空格）
+@abc 中文 @abc 中文 @abc
+
+
+四、以 @user 开头和 @user 结束（整行前后空格）
+@abc 中文 @abc 中文 @abc
 
 
 ### 测试 Revert
