@@ -3,7 +3,7 @@
 
 # 测试@用户
 ```
-git add . && git commit -m " @abc 中文 @abc 中文 @abc  " && git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
+git add . && git commit -m " @gitqa 中文 @gitqa 中文 @gitqa " && git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
 ```
 一、commit message 中文情况下无空格、左空格、右空格、左右空格
 1. 中@abc文
@@ -18,11 +18,11 @@ git add . && git commit -m " @abc 中文 @abc 中文 @abc  " && git push -f http
 4. eng @abc lish
 
 三、以 @user 开头和结束（整行前后无空格）
-@abc 中文 @abc 中文 @abc
+@gitqa 中文 @gitqa 中文 @gitqa
 
 
 四、以 @user 开头和 @user 结束（整行前后空格）
- @abc 中文 @abc 中文 @abc 
+ @gitqa 中文 @gitqa 中文 @gitqa 
 
 
 ### 测试 Revert
