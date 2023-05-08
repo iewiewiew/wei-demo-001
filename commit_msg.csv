@@ -1,13 +1,13 @@
 一、commit message 中文情况下无空格、左空格、右空格、左右空格
-1. 中@data文 
-2. 中 @data文 
-3. 中@data 文 
-4. 中 @data 文
+1. 中@gitqa文 
+2. 中 @gitqa文 
+3. 中@gitqa 文 
+4. 中 @gitqa 文
 二、commit message 英文情况下无空格、左空格、右空格、左右空格
-1. eng@datalish 
-2. eng @datalish 
-3. eng@data lish 
-4. eng @data lish
+1. eng@gitqalish 
+2. eng @gitqalish 
+3. eng@gitqa lish 
+4. eng @gitqa lish
 三、以 @user 开头和结束（整行前后无空格）
 @gitqa 中文 @gitqa 中文 @gitqa
 四、以 @user 开头和 @user 结束（整行前后空格）
