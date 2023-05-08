@@ -3,7 +3,7 @@
 
 # 测试@用户
 ```
-git add . && git commit -m "@gitqa" && git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
+git add . && git commit -m "@git" && git push -f https://gitqa:qwe123@master.runjs.cn/testent001/wei-demo-001.git main  --no-verify
 git add . && git commit -m "@Data"
 git add . && git commit -m "@data"
 ```
