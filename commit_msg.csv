@@ -1,18 +1,18 @@
 一、commit message 中文情况下无空格、左空格、右空格、左右空格
-1. 中@gitqa文 
-2. 中 @gitqa文 
-3. 中@gitqa 文 
-4. 中 @gitqa 文
+1. 中@weimenghua文 
+2. 中 @weimenghua文 
+3. 中@weimenghua 文 
+4. 中 @weimenghua 文
 二、commit message 英文情况下无空格、左空格、右空格、左右空格
-1. eng@gitqalish 
-2. eng @gitqalish 
-3. eng@gitqa lish 
-4. eng @gitqa lish
+1. eng@weimenghualish 
+2. eng @weimenghualish 
+3. eng@weimenghua lish 
+4. eng @weimenghua lish
 三、以 @user 开头和结束（整行前后无空格）
-@gitqa 中文 @gitqa 中文 @gitqa
+@weimenghua 中文 @weimenghua 中文 @weimenghua
 四、以 @user 开头和 @user 结束（整行前后空格）
- @gitqa 中文 @gitqa 中文 @gitqa
+ @weimenghua 中文 @weimenghua 中文 @weimenghua
 五、两个 @user
-@gitqa @git
+@weimenghua @git
 六、两个 @user 加@，加中文，加英文
-中文 @gitqa @git @data english
+中文 @weimenghua @git @data english
