@@ -70,3 +70,14 @@ test_admin123
 http://backend-18628.premium-ci.cn/WTF/wei-demo-001.git
 git push -f http://test_admin%40oschina.cn:test_admin123@backend-18628.premium-ci.cn/WTF/wei-demo-001.git main
 ```
+
+git add . && git commit -m "test aaa"
+git push -f http://gitqa:qwe123@pro.git.com/testent001/wei-demo-001.git dev  --no-verify
+
+
+cd wei-demo-001
+git remote add prem001 http://106.12.59.116/test-ent-001/wei-demo-001.git
+git push -u prem001 main
+
+
+
