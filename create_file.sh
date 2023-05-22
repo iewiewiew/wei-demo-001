@@ -4,13 +4,13 @@ time=$(date +%Y-%m-%d_%H:%M:%S)
 
 function creat_file() {
   # 注：脚本创建的 ppt 打不开，手动 touch 就正常打开？
-  file_suffix=(txt doc docx xls xlsx zip)
-#  file_suffix=(txt doc)
+#  file_suffix=(txt doc docx xls xlsx zip)
+  file_suffix=(txt doc)
 
   # shellcheck disable=SC2068
   for i in ${file_suffix[@]}; do
     mkdir -vp file/${i}
-    for ((j=1; j<=10; j++)) ; do
+    for ((j=1; j<=5; j++)) ; do
 
         if [[ ${i} = "zip" ]]; then
           cp -R file/txt/ file/zip
