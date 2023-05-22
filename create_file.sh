@@ -10,7 +10,7 @@ function creat_file() {
   # shellcheck disable=SC2068
   for i in ${file_suffix[@]}; do
     mkdir -vp file/${i}
-    for ((j=1; j<=5; j++)) ; do
+    for ((j=6; j<=6; j++)) ; do
 
         if [[ ${i} = "zip" ]]; then
           cp -R file/txt/ file/zip
